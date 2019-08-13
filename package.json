@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/JuniorTheodoro/Fire-DOOM/issues"
   },
-  "homepage": "https://github.com/JuniorTheodoro/Fire-DOOM#readme"
+  "homepage": "https://github.com/JuniorTheodoro/Fire-DOOM#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http": "0.0.0"
+  }
 }
