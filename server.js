@@ -21,6 +21,9 @@ var route = router.get('/', (req, res, next) => {
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
+app.get('/fire.js', (req, res) => {
+    res.sendFile(path.join(__dirname + '/fire.js'));
+});
 
 app.use('/', route);
 
